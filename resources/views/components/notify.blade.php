@@ -1,3 +1,4 @@
+<div id="laravel-notify">
 @if (session()->has('notify.message'))
 
     @include('notify::notifications.toast')
@@ -17,3 +18,4 @@
         timeout: "{{ config('notify.timeout') }}",
     }
 </script>
+</div>
